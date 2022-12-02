@@ -1,0 +1,78 @@
+
+body{
+    margin:0 auto; 
+    font-family: helvetica;
+    background-color: #29241f;
+    color: rgb(251, 244, 233);
+    padding: 50px;
+}
+div{
+    max-width: 1200px;
+    margin: auto;
+}
+h1{
+    font-size: 200px;
+    line-height: 180px;
+    margin: 50px 0;
+    max-width: 100%;
+}
+img{
+      padding: 20px 0;
+      width: 100%;
+      max-height: 80vh;
+      object-fit: cover;
+}
+
+li{
+    font-size: 18px;
+}
+
+h2{
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 40px;
+    color: yellow;
+    width: 100%;
+}
+
+ol{
+    list-style: decimal inside;
+    padding: 0;
+}
+
+ol li::marker{
+font-size: 40px;
+color: yellow;
+line-height: 18px;
+
+}
+
+ul{
+    padding: 0;
+    width: 100%;
+}
+ul li{
+    margin: 20px 0px;
+    background-color:#6e675f;
+    font-style: italic;
+    font-size: 18px;
+    width: 100%-20px;
+    list-style: none;
+    right: 0;
+    padding: 20px;
+}
+
+.words li{
+    background-color: transparent;
+    list-style: square inside;
+    margin: auto;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0;
+
+}
+p{
+    font-size: 32px;
+}
+
