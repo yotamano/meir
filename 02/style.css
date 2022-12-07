@@ -28,9 +28,12 @@ h2{
     
 }
 img{
-    float: right;
+   
 }
-
+ h2 img{
+    display: inline;
+   
+ }
 
 .description{
 
@@ -60,7 +63,7 @@ margin-right: auto;
 
 .box img{
     width: 100%;
-    
+    float: right;
 
 }
 
@@ -74,6 +77,11 @@ a{
     position: relative;
     left: 10px;
     top: -65px;
+}
+
+a:hover{
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
 }
    
 
