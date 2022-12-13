@@ -167,7 +167,7 @@ text-decoration: none;
 .ingre{
     color: red;
     width: 30%;
-
+    
 }
 
 .method{
@@ -184,9 +184,11 @@ width: 70%;
     letter-spacing: 0.3em;
     mix-blend-mode: difference;
     z-index: 1;
-    
+    max-width: 400px;
 }
-
+.method h2{
+    max-width: none;
+}
 
 ul{
     background-color: red;
@@ -233,11 +235,20 @@ h3{
     width: 100%;
   }
 
+.step-container{
+    overflow: scroll;
+    height: 400px;
+}
+
 .step{
     /*top: calc(16/9*100%);*/
-    /*position: sticky;*/
+    position: sticky;
     /* padding:1vw ; */
     margin: 1vw;
+    top: 1vw;
+    background-color: #fff0c5;
+    height: 200px;
+    border-top: 3px solid red;
  
 }
 
