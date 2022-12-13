@@ -1,12 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@300&family=Hanalei+Fill&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@300&family=Port+Lligat+Slab&display=swap');
-@font-face {
-    font-family: 'milk';
-    src: url('fonts/AGlassofMilk-Outline.otf');
-}
+
 html{
     scroll-behavior: smooth;
+    user-select: none;
 }
 body{
     height: auto;
@@ -32,17 +30,14 @@ h2{
     text-align: center;
     
 }
-img{
-   
-}
+
+
  h2 img{
     display: inline;
    
  }
 
-.description{
 
-}
 p{
 color: white;
 font-size: 20px;
@@ -81,6 +76,8 @@ margin-right: auto;
     float: right;
     border-radius: 10px;
     border: 4px solid white;
+    min-height: 400px;
+    object-fit: cover;
     
 }
 
